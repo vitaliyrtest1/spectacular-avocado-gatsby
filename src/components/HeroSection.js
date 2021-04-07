@@ -63,17 +63,17 @@ export default class HeroSection extends React.Component {
 
                                 <p>{ section.title } & { section.title }</p>
 
-                                <p>Hello and please <br> { section.title } thanks</p>
-                                <p>Hello and please <br> { section.title } <br> thanks</p>
+                                <p>Hello and please <br/> { section.title } thanks</p>
+                                <p>Hello and please <br/> { section.title } <br> thanks</p>
 
                                 <p>{ section.title } and { section.subtitle }</p>
                                 
-                                <br>
+                                <br/>
                                 <div>
                                     { section.title }
                                     <div>{ section.subtitle }</div>
                                 </div>
-                                <br>
+                                <br/>
 
                 				</>)}
                 				{_.get(section, 'subtitle', null) && (
