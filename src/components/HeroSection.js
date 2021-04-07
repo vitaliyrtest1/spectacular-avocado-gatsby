@@ -75,7 +75,7 @@ export default class HeroSection extends React.Component {
                                 </div>
                                 <br>
 
-                				)}
+                				</>)}
                 				{_.get(section, 'subtitle', null) && (
                 				<p className="hero__subtitle">{_.get(section, 'subtitle', null)}</p>
                 				)}
