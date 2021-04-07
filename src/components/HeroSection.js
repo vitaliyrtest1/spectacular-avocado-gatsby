@@ -70,8 +70,8 @@ export default class HeroSection extends React.Component {
                                 
                                 <br>
                                 <div>
-                                    {{ $section.title }}
-                                    <div>{{ $section.subtitle }}</div>
+                                    {{ section.title }}
+                                    <div>{{ section.subtitle }}</div>
                                 </div>
                                 <br>
 
