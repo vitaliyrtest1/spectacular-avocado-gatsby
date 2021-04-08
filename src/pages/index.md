@@ -18,7 +18,7 @@ sections:
     background_image_position: center top
     background_image_size: auto
     background_image_opacity: 60
-    title: The title2
+    title: The title1
   - type: grid_section
     title: Featured On
     align: center
