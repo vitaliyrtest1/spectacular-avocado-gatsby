@@ -58,7 +58,7 @@ export default class HeroSection extends React.Component {
                 			<div className={classNames('hero__body', 'my-2', 'cell-12', {'cell-md-7': (is_horiz && has_media) && (media_width === 'fourty'), 'cell-md-6': (is_horiz && has_media) && (media_width === 'fifty'), 'cell-md-5': (is_horiz && has_media) && (media_width === 'sixty'), 'order-md-first': has_media && (media_pos === 'right'), 'order-first': has_media && (media_pos === 'bottom'), 'text-center': align_x === 'center', 'text-right': align_x === 'right', 'maxw-medium': is_vert})}>
                 				{_.get(section, 'title', null) && (<>
                                 <h1 className="hero__title">{_.get(section, 'title', null)}</h1>
-                                {section.title}sad asd  asd 123
+                                {section.title}sad asd  asd 123asd asd a;kdaskj kjlas djasdkj askd aksj
                                 <p>{ section.title } & { section.title }</p>
 
                                 <p>Hello and please <br/> { section.title } thanks</p>
