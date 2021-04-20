@@ -37,7 +37,7 @@ sections:
     padding_top: small
     padding_bottom: medium
     background_color: none
-    title: Test
+    title: Test!!
   - type: features_section
     title: Why Choose YourGoal?
     features:
